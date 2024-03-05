@@ -1,5 +1,40 @@
-template-repository (1.0-1) unstable; urgency=medium
+uc-micro-py (1.0.3-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 1.0.3
+  * refreshed the debian patch
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Georges Khaznadar <georgesk@debian.org>  Mon, 12 Feb 2024 14:44:47 +0100
+
+uc-micro-py (1.0.2-2) unstable; urgency=medium
+
+  * upload to unstable
+
+ -- Georges Khaznadar <georgesk@debian.org>  Sun, 11 Jun 2023 13:15:06 +0200
+
+uc-micro-py (1.0.2-1) experimental; urgency=medium
+
+  * New upstream version 1.0.2
+  * added a build-dependency on pybuild-plugin-pyproject
+
+ -- Georges Khaznadar <georgesk@debian.org>  Mon, 29 May 2023 15:25:49 +0200
+
+uc-micro-py (1.0.1-3) unstable; urgency=medium
+
+  * merged changes coming from Debian Janitor, like fix the missing file
+    debian/upstream/metadata
+  * updated Standards-Version to 4.6.1
+
+ -- Georges Khaznadar <georgesk@debian.org>  Fri, 16 Dec 2022 17:10:25 +0100
+
+uc-micro-py (1.0.1-2) unstable; urgency=medium
+
+  * first release to debian/unstable. (Closes: #1008310)
+  * fixed debian/copyright (thanks, Thorsten Alteholz)
+
+ -- Georges Khaznadar <georgesk@debian.org>  Tue, 29 Mar 2022 20:03:20 +0200
+
+uc-micro-py (1.0.1-1) experimental; urgency=medium
+
+  * Initial release (Closes: #1008310)
+
+ -- Georges Khaznadar <georgesk@debian.org>  Sat, 26 Mar 2022 16:47:39 +0100

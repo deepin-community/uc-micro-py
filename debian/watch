@@ -1,0 +1,4 @@
+version=4
+
+# PyPI
+https://pypi.debian.net/uc-micro-py/uc-micro-py-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
