@@ -1,0 +1,12 @@
+Index: uc-micro-py/pyproject.toml
+===================================================================
+--- uc-micro-py.orig/pyproject.toml
++++ uc-micro-py/pyproject.toml
+@@ -31,6 +31,7 @@ test = ["pytest", "coverage", "pytest-co
+ 
+ [tool.setuptools.packages.find]
+ include = ["uc_micro*"]
++exclude = ["debian*"]
+ namespaces = false
+ 
+ [tool.setuptools.dynamic]
